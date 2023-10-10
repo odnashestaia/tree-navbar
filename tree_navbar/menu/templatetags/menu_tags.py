@@ -55,7 +55,6 @@ def draw_menu(context: RequestContext, name: str = '', parent: int = 0):
                 'parent': item.parent_id or 0,
                 'active': True if url == current_path else False,
             })
-    print(menu)
     return {
         'menu': menu,
         'current_menu': (item for item in menu if 'parent' in item and item['parent'] == parent),
