@@ -1,0 +1,793 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2023-10-10T15:17:07.609Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "1",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2023-10-10T15:17:45.839Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "Home",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2023-10-10T15:18:16.897Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "About company",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2023-10-10T15:18:39.040Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "2",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2023-10-10T15:18:45.025Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "About company",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2023-10-10T15:37:17.143Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "asdfasdf",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2023-10-10T15:37:22.325Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "About company",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2023-10-10T15:38:38.169Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "home",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Verbose name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2023-10-10T15:38:47.030Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "1",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2023-10-10T15:38:57.065Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "4",
+            "object_repr": "1",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2023-10-10T15:39:03.153Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "5",
+            "object_repr": "2",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2023-10-10T15:41:31.207Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "home",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2023-10-10T15:41:37.588Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "5",
+            "object_repr": "2",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2023-10-10T15:46:20.704Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "home",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2023-10-10T15:46:43.671Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "main_menu",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2023-10-10T15:47:42.737Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "6",
+            "object_repr": "Home",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2023-10-10T15:47:58.078Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "7",
+            "object_repr": "About company",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 18,
+        "fields": {
+            "action_time": "2023-10-10T15:48:12.891Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "7",
+            "object_repr": "About company",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Link\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2023-10-10T15:48:28.489Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "8",
+            "object_repr": "Development",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2023-10-10T15:48:44.065Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "9",
+            "object_repr": "Development C++",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 21,
+        "fields": {
+            "action_time": "2023-10-10T15:48:59.654Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "10",
+            "object_repr": "Development C++/Qt",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 22,
+        "fields": {
+            "action_time": "2023-10-10T15:49:11.725Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "10",
+            "object_repr": "Development C++/Qt",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Parent element\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 23,
+        "fields": {
+            "action_time": "2023-10-10T15:49:50.968Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "11",
+            "object_repr": "Development Python",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 24,
+        "fields": {
+            "action_time": "2023-10-10T15:50:05.093Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "12",
+            "object_repr": "Development Python/Django",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 25,
+        "fields": {
+            "action_time": "2023-10-10T15:50:24.982Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "13",
+            "object_repr": "Development Python/Tornado",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add Menu category",
+            "content_type": 7,
+            "codename": "add_menucategory"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change Menu category",
+            "content_type": 7,
+            "codename": "change_menucategory"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete Menu category",
+            "content_type": 7,
+            "codename": "delete_menucategory"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view Menu category",
+            "content_type": 7,
+            "codename": "view_menucategory"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add Menu item",
+            "content_type": 8,
+            "codename": "add_menu"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change Menu item",
+            "content_type": 8,
+            "codename": "change_menu"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete Menu item",
+            "content_type": 8,
+            "codename": "delete_menu"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view Menu item",
+            "content_type": 8,
+            "codename": "view_menu"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$fFZK626Q0b6laNmsU4s9OA$917euPz82EFvaQyqfd5lvBAb0M5U00gR3YpBamB5JNc=",
+            "last_login": "2023-10-10T14:43:02.064Z",
+            "is_superuser": true,
+            "username": "re",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2023-10-10T14:42:57.165Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "menu",
+            "model": "menucategory"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "menu",
+            "model": "menu"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "b7d19r1pgeifet4n000o5gguxs7bwdsj",
+        "fields": {
+            "session_data": ".eJxVjDEOAiEQRe9CbQjgOhBLe89AZphBVg0ky25lvLuSbKHte-__l4q4rSVuXZY4szorqw6_jDA9pA7Bd6y3plOr6zKTHonebdfXxvK87O3fQcFevmsJIAzoxCCI90EkGHYnRxzyMaWMA3gIZmLrErD1Qp4mMmByTtao9wcJazi_:1qqDws:6RaZ9PLoLteA7DiPFACIgvafqCwjmcNc9jvyYPWxCjM",
+            "expire_date": "2023-10-24T14:43:02.069Z"
+        }
+    },
+    {
+        "model": "menu.menucategory",
+        "pk": 3,
+        "fields": {
+            "name": "main_menu",
+            "verbose_name": "main_menu"
+        }
+    },
+    {
+        "model": "menu.menu",
+        "pk": 6,
+        "fields": {
+            "name": "Home",
+            "category": 3,
+            "path": "home",
+            "parent": null
+        }
+    },
+    {
+        "model": "menu.menu",
+        "pk": 7,
+        "fields": {
+            "name": "About company",
+            "category": 3,
+            "path": "company",
+            "parent": 6
+        }
+    },
+    {
+        "model": "menu.menu",
+        "pk": 8,
+        "fields": {
+            "name": "Development",
+            "category": 3,
+            "path": "development",
+            "parent": null
+        }
+    },
+    {
+        "model": "menu.menu",
+        "pk": 9,
+        "fields": {
+            "name": "Development C++",
+            "category": 3,
+            "path": "development_cpp",
+            "parent": 8
+        }
+    },
+    {
+        "model": "menu.menu",
+        "pk": 10,
+        "fields": {
+            "name": "Development C++/Qt",
+            "category": 3,
+            "path": "development_cpp_qt",
+            "parent": 9
+        }
+    },
+    {
+        "model": "menu.menu",
+        "pk": 11,
+        "fields": {
+            "name": "Development Python",
+            "category": 3,
+            "path": "development_python",
+            "parent": null
+        }
+    },
+    {
+        "model": "menu.menu",
+        "pk": 12,
+        "fields": {
+            "name": "Development Python/Django",
+            "category": 3,
+            "path": "development_python_django",
+            "parent": 11
+        }
+    },
+    {
+        "model": "menu.menu",
+        "pk": 13,
+        "fields": {
+            "name": "Development Python/Tornado",
+            "category": 3,
+            "path": "development_python_tornado",
+            "parent": 11
+        }
+    }
+]
