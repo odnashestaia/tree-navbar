@@ -15,3 +15,7 @@
 
 ## Для тго что бы не вносить данные, предворительно надо прописать эту команду:
 `py tree_navbar/manage.py loaddata db.json`
+
+## .env файл должен выглядить так:
+`DEBUG = True
+SECRET_KEY ='SECRET_KEY'`
